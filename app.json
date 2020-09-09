@@ -1,21 +1,10 @@
 {
-  "name": "tellmeallyouknow",
-  "description": "help me",
-  "keywords": ["help"],
-  "env": {
-     "CONFIG_JSON1": {
-            "description": "v2ray配置，默认即可",
-            "value": "{\"log\":{\"access\":\"\",\"error\":\"\",\"loglevel\":\"warning\"},\"inbound\":{\"protocol\":\"vmess\",\"port\":"
-        },
-        "CONFIG_JSON2": {
-            "description": "拼接config.json,默认",
-            "value": ",\"settings\":{\"clients\":[{\"id\":\""
-        },
-        "CONFIG_JSON3": {
-            "description": "拼接config.json,默认",
-            "value": "\",\"alterId\":0,\"security\":\"none\"}]},\"streamSettings\":{\"network\":\"ws\",\"path\":\"tellme\"}},\"inboundDetour\":[],\"outbound\":{\"protocol\":\"freedom\",\"settings\":{}}}"
-        }
-     
-  },
-  "stack": "container"
- }
+    "name": "V2Ray",
+    "description": "Deploy V2ray on Heroku.",
+    "keywords": ["V2Ray"],
+    },
+    "website": "https://ibcl.us/Heroku-V2Ray_20191014/",
+    "repository": "https://github.com/bclswl0827/v2ray-heroku",
+    "stack": "container"
+}
+
